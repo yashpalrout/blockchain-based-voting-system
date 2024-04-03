@@ -12,10 +12,13 @@ contract VotingSystem {
 
     bool electionOn = false; // Boolean value to check if an election is in progress
     uint electionId;
+    Candidate maxVoted;
+    Candidate NOTA = Candidate(0, "NOTA", 0, 0); // Null candidate to reset maxVoted after each election
 
     string[] allVoters; // List of all the voter IDs in an election
 
     mapping(uint => Candidate[]) public electionCandidates; // Mapping of election ID to candidates in that election
+    mapping(uint => Candidate) public elected; // Mapping of election ID to candidate who is the winner
     mapping(string => bool) public voters; // Mapping of voter ID to boolean indicating whether the voter has voted
 
     event VoteCasted(string indexed _voter, uint _candidateId); // Event to emit when a vote is casted
@@ -58,6 +61,9 @@ contract VotingSystem {
         voters[_voterId] = true;
         allVoters.push(_voterId);
 
+        if(electionCandidates[electionId][_candidateId].voteCount > maxVoted.voteCount)
+            maxVoted = electionCandidates[electionId][_candidateId];
+
         emit VoteCasted(_voterId, _candidateId);
     }
 
@@ -66,8 +72,10 @@ contract VotingSystem {
     function endElection(uint _constituencyId) public {
         require(electionOn, "No election is in progress!");
         electionOn = false;
+        elected[electionId] = maxVoted;
         electionId++;
 
+        maxVoted = NOTA;
         for(uint i=0; i<allVoters.length; i++){ // Resetting all voters voting boolean to false
             voters[allVoters[i]] = false;
         }
@@ -126,6 +134,13 @@ contract VotingSystem {
         }
 
         return candidateDetails;
+    }
+
+    // Function to get the winning candidate of an election
+    function getWinner(uint _electionId) public view returns (Candidate memory) {
+        require(_electionId < electionId, "Invalid election ID!");
+
+        return elected[_electionId];
     }
 
     // Function to check if the election is in progress
