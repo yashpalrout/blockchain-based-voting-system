@@ -1,0 +1,485 @@
+.desktop-1-child {
+  position: absolute;
+  top: 1812px;
+  left: 609px;
+  border-radius: var(--br-46xl);
+  background: linear-gradient(90deg, #436ee4, #8d7ce2);
+  width: 234px;
+  height: 74px;
+}
+.desktop-1-item {
+  position: absolute;
+  top: 1789px;
+  left: 1162px;
+  border-radius: 50%;
+  background-color: var(--color-mediumorchid);
+  filter: blur(319.6px);
+  width: 278px;
+  height: 194px;
+}
+.click-for-more {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 82px);
+  font-weight: 600;
+  display: inline-block;
+  width: 176px;
+  height: 26px;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.desktop-1-inner,
+.ellipse-div {
+  position: absolute;
+  top: 437px;
+  left: 11px;
+  border-radius: 50%;
+  background-color: var(--color-mediumorchid);
+  filter: blur(319.6px);
+  width: 278px;
+  height: 194px;
+}
+.desktop-1-child1,
+.desktop-1-child2,
+.ellipse-div {
+  top: 2338px;
+  left: -128px;
+}
+.desktop-1-child1,
+.desktop-1-child2 {
+  top: 1422px;
+  left: 287px;
+  background-color: var(--color-cornflowerblue);
+}
+.desktop-1-child2 {
+  top: 285px;
+  left: 1066px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-smi) var(--br-smi);
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 106px;
+}
+.block {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background: linear-gradient(90deg, #b38cce, #9a68e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 195.6px;
+}
+.block,
+.block-parent,
+.vote {
+  position: absolute;
+  height: 68px;
+}
+.vote {
+  top: 0;
+  left: 128.4px;
+  display: inline-block;
+  background: linear-gradient(90deg, #22b8d0, #3d70d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 195.6px;
+}
+.block-parent {
+  top: 27px;
+  left: 31px;
+  width: 324px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.elections {
+  left: 639px;
+}
+.elections,
+.news,
+.results,
+.vote1 {
+  position: absolute;
+  top: 39px;
+  font-weight: 500;
+  display: inline-block;
+  width: 152px;
+  height: 28px;
+}
+.vote1 {
+  left: 765px;
+  cursor: pointer;
+}
+.news,
+.results {
+  left: 891px;
+}
+.news {
+  left: 1017px;
+}
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl);
+  background: linear-gradient(90deg, #406de4, #907ce2);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 208px;
+  height: 40px;
+}
+.sign-in1 {
+  position: absolute;
+  top: 4px;
+  left: 31.7px;
+  font-weight: 500;
+  display: inline-block;
+  width: 144.5px;
+  height: 19px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 35px;
+  left: 1191px;
+  width: 208px;
+  height: 40px;
+  cursor: pointer;
+}
+.ongoing-election,
+.popular-news {
+  position: absolute;
+  top: 209px;
+  left: calc(50% - 420px);
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.popular-news {
+  top: 1954px;
+}
+.group-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 379px;
+  height: 490px;
+}
+.election-beautiful-4k-backgr {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-24xl) var(--br-24xl) 0 0;
+  width: 375px;
+  height: 267px;
+  object-fit: cover;
+}
+.in-todays-speech,
+.tatul-mandis-recent {
+  position: absolute;
+  left: 30px;
+  display: inline-block;
+  width: 319px;
+}
+.tatul-mandis-recent {
+  top: 288px;
+  font-weight: 500;
+  height: 67px;
+}
+.in-todays-speech {
+  top: 326px;
+  font-size: var(--font-size-base);
+}
+.march-2024 {
+  position: absolute;
+  top: 444px;
+  left: 30px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-gray-400);
+}
+.group-div,
+.rectangle-container,
+.rectangle-parent1,
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 878px;
+  width: 379px;
+  height: 490px;
+}
+.group-div,
+.rectangle-parent1,
+.vector-icon {
+  left: 439px;
+}
+.rectangle-parent1,
+.vector-icon {
+  left: 0;
+}
+.vector-icon {
+  height: 6.53%;
+  width: 2.71%;
+  top: 47.67%;
+  right: 0;
+  bottom: 45.8%;
+  left: 97.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.group-parent {
+  position: absolute;
+  top: 2043px;
+  left: 69px;
+  width: 1330px;
+  height: 490px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.trending-world-news {
+  position: absolute;
+  top: 2636px;
+  left: calc(50% - 418px);
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 5.61%;
+  width: 2.71%;
+  top: 47.63%;
+  right: 0;
+  bottom: 46.76%;
+  left: 97.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.group-container {
+  position: absolute;
+  top: 2725px;
+  left: 71px;
+  width: 1328px;
+  height: 490px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.group-child10 {
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-plum);
+  box-sizing: border-box;
+}
+.election-name,
+.group-child10,
+.rectangle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1128px;
+  height: 404px;
+}
+.election-name {
+  top: 32px;
+  left: 340px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #209eb7, #927be3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  width: 437px;
+  height: 53px;
+}
+.fluentlive-20-filled-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.live {
+  position: absolute;
+  top: 4px;
+  left: 33px;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+}
+.fluentlive-20-filled-parent {
+  position: absolute;
+  top: 40px;
+  left: 71px;
+  width: 87px;
+  height: 33px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+}
+.px-bharatiya-janata-party-logo-icon {
+  position: absolute;
+  top: 145px;
+  left: 367px;
+  width: 140px;
+  height: 145px;
+  object-fit: cover;
+}
+.aam-aadmi-party-logo-english-icon {
+  position: absolute;
+  top: 149px;
+  left: 88px;
+  width: 174px;
+  height: 136px;
+  object-fit: cover;
+}
+.indian-national-congress-hand-icon,
+.px-nota-option-logo-3x4-1-icon {
+  position: absolute;
+  top: 142px;
+  left: 612px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.px-nota-option-logo-3x4-1-icon {
+  top: 86px;
+  left: 867px;
+  width: 198px;
+  height: 263px;
+}
+.span {
+  color: var(--color-white);
+}
+.span1 {
+  color: var(--color-mediumpurple-100);
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  top: 314px;
+  left: 139px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 23px;
+}
+.div1,
+.div2,
+.div3 {
+  left: 401px;
+}
+.div2,
+.div3 {
+  left: 651px;
+}
+.div3 {
+  left: 930px;
+}
+.group-parent1 {
+  position: absolute;
+  top: 303px;
+  left: 156px;
+  width: 1128px;
+  height: 404px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.previous-elections,
+.result {
+  position: absolute;
+  display: inline-block;
+}
+.previous-elections {
+  top: 809px;
+  left: calc(50% - 415px);
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.result {
+  top: 4px;
+  left: 33px;
+  width: 81px;
+  height: 25px;
+}
+.fluentlive-20-filled-group {
+  position: absolute;
+  top: 40px;
+  left: 71px;
+  width: 114px;
+  height: 33px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+}
+.group-parent2 {
+  position: absolute;
+  top: 903px;
+  left: 156px;
+  width: 1128px;
+  height: 404px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.fluentlive-20-filled-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 43.2px;
+  height: 33px;
+  overflow: hidden;
+}
+.result1 {
+  position: absolute;
+  top: 4px;
+  left: 43.2px;
+  display: inline-block;
+  width: 70.8px;
+  height: 25px;
+}
+.group-parent3 {
+  position: absolute;
+  top: 1361px;
+  left: 156px;
+  width: 1128px;
+  height: 404px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 3339px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-17xl: 36px;
+  --font-size-45xl: 64px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-3xl: 22px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: #262544;
+  --color-gray-200: #131234;
+  --color-gray-300: rgba(255, 255, 255, 0.09);
+  --color-gray-400: rgba(255, 255, 255, 0.54);
+  --color-gray-500: rgba(255, 255, 255, 0.08);
+  --color-darkgray: #9f9f9f;
+  --color-white: #fff;
+  --color-royalblue: #3d6de4;
+  --color-silver: rgba(184, 184, 184, 0.6);
+  --color-cornflowerblue: #7487d3;
+  --color-mediumorchid: #e35fe9;
+  --color-mediumpurple-100: #a578d9;
+  --color-mediumpurple-200: rgba(168, 125, 214, 0.6);
+  --color-steelblue-100: #2f97d4;
+  --color-red: #e01111;
+  --color-plum: #b898db;
+  --color-gainsboro: #d9d9d9;
+
+  /* Border radiuses */
+  --br-12xl: 31px;
+  --br-24xl: 43px;
+  --br-smi: 13px;
+  --br-46xl: 65px;
+  --br-lgi: 19px;
+}
