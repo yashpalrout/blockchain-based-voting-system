@@ -1,0 +1,999 @@
+.desktop-4-child,
+.desktop-4-child1,
+.desktop-4-inner,
+.desktop-4-item {
+  position: absolute;
+  top: 1789px;
+  left: 1162px;
+  border-radius: 50%;
+  background-color: var(--color-mediumorchid);
+  filter: blur(319.6px);
+  width: 278px;
+  height: 194px;
+}
+.desktop-4-child1,
+.desktop-4-inner,
+.desktop-4-item {
+  top: 2338px;
+  left: -128px;
+}
+.desktop-4-child1,
+.desktop-4-inner {
+  top: 4593px;
+  left: 740px;
+}
+.desktop-4-child1 {
+  top: 3501px;
+  left: 1112px;
+}
+.desktop-4-child2,
+.desktop-4-child3,
+.desktop-4-child4,
+.desktop-4-child5,
+.desktop-4-child6,
+.desktop-4-child7 {
+  position: absolute;
+  top: 1422px;
+  left: 287px;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue);
+  filter: blur(319.6px);
+  width: 278px;
+  height: 194px;
+}
+.desktop-4-child3,
+.desktop-4-child4,
+.desktop-4-child5,
+.desktop-4-child6,
+.desktop-4-child7 {
+  top: 285px;
+  left: 1066px;
+}
+.desktop-4-child4,
+.desktop-4-child5,
+.desktop-4-child6,
+.desktop-4-child7 {
+  top: 2684px;
+  left: 740px;
+}
+.desktop-4-child5,
+.desktop-4-child6,
+.desktop-4-child7 {
+  top: 3762px;
+  left: 53px;
+}
+.desktop-4-child6,
+.desktop-4-child7 {
+  top: 5470px;
+  left: 367px;
+}
+.desktop-4-child7 {
+  top: 458px;
+  left: 0;
+  background-color: var(--color-mediumorchid);
+}
+.desktop-4-child8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-smi) var(--br-smi);
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 106px;
+}
+.block2 {
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background: linear-gradient(90deg, #b38cce, #9a68e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 195.6px;
+}
+.block-container,
+.block2,
+.vote9 {
+  position: absolute;
+  height: 68px;
+}
+.vote9 {
+  top: 0;
+  left: 128.4px;
+  display: inline-block;
+  background: linear-gradient(90deg, #22b8d0, #3d70d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 195.6px;
+}
+.block-container {
+  top: 27px;
+  left: 31px;
+  width: 324px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+}
+.elections1 {
+  left: 639px;
+}
+.about,
+.elections1,
+.news1,
+.vote10 {
+  position: absolute;
+  top: 39px;
+  font-weight: 500;
+  display: inline-block;
+  width: 152px;
+  height: 28px;
+}
+.vote10 {
+  left: 765px;
+  cursor: pointer;
+}
+.about,
+.news1 {
+  left: 891px;
+}
+.news1 {
+  left: 1017px;
+}
+.group-child21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl);
+  background: linear-gradient(90deg, #406de4, #907ce2);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 208px;
+  height: 40px;
+}
+.contact-us {
+  position: absolute;
+  top: 4px;
+  left: 31.7px;
+  font-weight: 500;
+  display: inline-block;
+  width: 144.5px;
+  height: 19px;
+}
+.rectangle-parent6 {
+  position: absolute;
+  top: 35px;
+  left: 1191px;
+  width: 208px;
+  height: 40px;
+}
+.candidates,
+.ongoing-election1 {
+  position: absolute;
+  top: 209px;
+  left: calc(50% - 420px);
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.candidates {
+  top: 1537px;
+  left: calc(50% - 415px);
+}
+.group-child22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-mediumpurple-200);
+  box-sizing: border-box;
+  width: 1128px;
+  height: 404px;
+}
+.election-name4 {
+  position: absolute;
+  top: 32px;
+  left: 340px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #209eb7, #927be3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  width: 437px;
+  height: 53px;
+}
+.fluentlive-20-filled-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.live2 {
+  position: absolute;
+  top: 4px;
+  left: 33px;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+}
+.fluentlive-20-filled-parent2 {
+  position: absolute;
+  top: 40px;
+  left: 71px;
+  width: 87px;
+  height: 33px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+}
+.px-bharatiya-janata-party-logo-icon4 {
+  position: absolute;
+  top: 145px;
+  left: 367px;
+  width: 140px;
+  height: 145px;
+  object-fit: cover;
+}
+.aam-aadmi-party-logo-english-icon4 {
+  position: absolute;
+  top: 149px;
+  left: 88px;
+  width: 174px;
+  height: 136px;
+  object-fit: cover;
+}
+.indian-national-congress-hand-icon4,
+.px-nota-option-logo-3x4-1-icon4 {
+  position: absolute;
+  top: 142px;
+  left: 612px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.px-nota-option-logo-3x4-1-icon4 {
+  top: 86px;
+  left: 867px;
+  width: 198px;
+  height: 263px;
+}
+.span24 {
+  color: var(--color-white);
+}
+.span25 {
+  color: var(--color-mediumpurple-100);
+}
+.div12,
+.div13,
+.div14,
+.div15 {
+  position: absolute;
+  top: 314px;
+  left: 139px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 23px;
+}
+.div13,
+.div14,
+.div15 {
+  left: 401px;
+}
+.div14,
+.div15 {
+  left: 651px;
+}
+.div15 {
+  left: 930px;
+}
+.desktop-4-inner1,
+.rectangle-parent7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1128px;
+  height: 404px;
+}
+.desktop-4-inner1 {
+  top: 303px;
+  left: 156px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.div16,
+.start-new {
+  position: absolute;
+  top: 743px;
+  left: 707px;
+  font-size: var(--font-size-45xl);
+}
+.start-new {
+  top: 810px;
+  left: 677px;
+  font-size: var(--font-size-xl);
+}
+.group-child23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 1128px;
+  height: 531px;
+}
+.new-election-details {
+  position: absolute;
+  top: 66.4px;
+  left: 142.6px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: inline-block;
+  width: 764.2px;
+  height: 39px;
+}
+.start-schedule {
+  position: absolute;
+  top: 11.9px;
+  left: 135.9px;
+  font-weight: 600;
+  display: inline-block;
+  width: 213px;
+  height: 26px;
+}
+.group-child24,
+.start-schedule-parent {
+  position: absolute;
+  width: 464.4px;
+  height: 54.9px;
+}
+.group-child24 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+}
+.start-schedule-parent {
+  top: 432.1px;
+  left: 329.1px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.group-child25,
+.group-child26,
+.group-child27,
+.group-child28 {
+  position: absolute;
+  top: 243px;
+  left: 141.6px;
+  border-top: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 844.8px;
+  height: 2px;
+}
+.group-child26,
+.group-child27,
+.group-child28 {
+  top: 172.7px;
+}
+.group-child27,
+.group-child28 {
+  top: 315.3px;
+}
+.group-child28 {
+  top: 387.5px;
+}
+.from,
+.location,
+.official-something-no,
+.to {
+  position: absolute;
+  top: 197.2px;
+  left: 142.6px;
+  font-weight: 500;
+  display: inline-block;
+  width: 371.1px;
+  height: 16.9px;
+}
+.from,
+.location,
+.to {
+  top: 126.9px;
+}
+.from,
+.to {
+  top: 269.4px;
+}
+.to {
+  top: 341.6px;
+}
+.rectangle-parent8 {
+  position: absolute;
+  top: 888px;
+  left: 150px;
+  width: 1128px;
+  height: 531px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.politician-indian-high-quali {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 194px;
+  height: 194px;
+  object-fit: contain;
+}
+.bjp,
+.surendra-modi {
+  margin: 0;
+}
+.bjp {
+  color: var(--color-mediumpurple-100);
+}
+.surendra-modi-bjp-container {
+  position: absolute;
+  top: 216px;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 194px;
+  height: 23px;
+}
+.politician-indian-high-quali-parent {
+  position: absolute;
+  top: 98px;
+  left: 855px;
+  width: 194px;
+  height: 239px;
+}
+.politician-indian-female-hig {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 194px;
+  height: 194px;
+  object-fit: cover;
+}
+.politician-indian-female-hig-parent {
+  position: absolute;
+  top: 98px;
+  left: 596px;
+  width: 194px;
+  height: 239px;
+}
+.politician-indian-different-re-parent,
+.politician-indian-high-qu-parent {
+  position: absolute;
+  top: 98px;
+  left: 337px;
+  width: 194px;
+  height: 239px;
+}
+.politician-indian-high-qu-parent {
+  left: 78px;
+}
+.consti-1,
+.election-name5 {
+  position: absolute;
+  display: inline-block;
+}
+.election-name5 {
+  top: 32px;
+  left: 340px;
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(90deg, #209eb7, #927be3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 437px;
+  height: 53px;
+}
+.consti-1 {
+  top: 9.4px;
+  left: 9.3px;
+  width: 100.2px;
+  height: 20.2px;
+}
+.group-child30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl);
+  border: 1px solid var(--color-royalblue);
+  box-sizing: border-box;
+  width: 167px;
+  height: 42.7px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 2.24%;
+  width: 6.05%;
+  top: 97.76%;
+  right: 10.72%;
+  bottom: 0;
+  left: 83.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.consti-1-parent {
+  position: absolute;
+  top: 27.1px;
+  left: 754px;
+  width: 167px;
+  height: 272.4px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.more {
+  position: absolute;
+  top: 365px;
+  left: 1030px;
+  font-size: var(--font-size-base);
+  background: linear-gradient(90deg, #a578d9, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 100.2px;
+  height: 20.2px;
+}
+.rectangle-parent9 {
+  position: absolute;
+  top: 2079px;
+  left: 162px;
+  width: 1130.2px;
+  height: 404px;
+  color: var(--color-steelblue-100);
+}
+.yogi-ashirvad-bjp-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 194px;
+  height: 23px;
+}
+.sasmita-rani-aap-wrapper,
+.vector-icon3,
+.yogi-ashirvad-bjp-wrapper {
+  position: absolute;
+  top: 314px;
+  left: 337px;
+  width: 194px;
+  height: 23px;
+}
+.sasmita-rani-aap-wrapper,
+.vector-icon3 {
+  left: 78px;
+}
+.vector-icon3 {
+  height: 2.78%;
+  width: 6.05%;
+  top: 97.22%;
+  right: 10.72%;
+  bottom: 0;
+  left: 83.23%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.consti-1-group {
+  position: absolute;
+  top: 27.1px;
+  left: 754px;
+  width: 167px;
+  height: 219.2px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.more1 {
+  position: absolute;
+  top: 365px;
+  left: 1030px;
+  font-size: var(--font-size-base);
+  background: linear-gradient(90deg, #a578d9, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 100.2px;
+  height: 20.2px;
+  cursor: pointer;
+}
+.rectangle-parent10 {
+  position: absolute;
+  top: 1621px;
+  left: 162px;
+  width: 1130.2px;
+  height: 404px;
+  color: var(--color-steelblue-100);
+}
+.add-new,
+.div17 {
+  position: absolute;
+  top: 2516px;
+  left: 713px;
+  font-size: var(--font-size-45xl);
+}
+.add-new {
+  top: 2583px;
+  left: 686px;
+  font-size: var(--font-size-xl);
+}
+.new-candidate-details,
+.upload {
+  position: absolute;
+  display: inline-block;
+}
+.new-candidate-details {
+  top: 33px;
+  left: calc(50% - 382px);
+  font-weight: 500;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 764.2px;
+  height: 39px;
+}
+.upload {
+  top: 11.9px;
+  left: calc(50% - 106.3px);
+  font-weight: 600;
+  width: 213px;
+  height: 26px;
+}
+.upload-parent {
+  position: absolute;
+  top: 432.1px;
+  left: calc(50% - 234.9px);
+  width: 464.4px;
+  height: 54.9px;
+  font-size: var(--font-size-5xl);
+}
+.group-child35,
+.group-child36,
+.group-child37 {
+  position: absolute;
+  top: 117.1px;
+  left: 0;
+  border-top: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 844.8px;
+  height: 2px;
+}
+.group-child36,
+.group-child37 {
+  top: 46.9px;
+}
+.group-child37 {
+  top: 189.4px;
+}
+.candidates-name,
+.constituency-id,
+.party {
+  position: absolute;
+  top: 70.3px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 371.1px;
+  height: 16.9px;
+}
+.candidates-name,
+.constituency-id {
+  top: 0;
+}
+.constituency-id {
+  top: 142.5px;
+}
+.line-parent {
+  position: absolute;
+  top: 106px;
+  left: 143px;
+  width: 842.8px;
+  height: 189.4px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.rectangle-parent11 {
+  position: absolute;
+  top: 2661px;
+  left: 156px;
+  width: 1128px;
+  height: 531px;
+  font-size: var(--font-size-17xl);
+}
+.politician-indian-different-re1,
+.politician-indian-female-hig1 {
+  position: absolute;
+  top: 1719px;
+  left: 499px;
+  width: 194px;
+  height: 194px;
+  object-fit: cover;
+}
+.politician-indian-female-hig1 {
+  left: 240px;
+}
+.desktop-4-child9 {
+  position: absolute;
+  top: 2985px;
+  left: calc(50% - 420px);
+  border-radius: var(--br-24xl);
+  background-color: #4792c6;
+  width: 841px;
+  height: 83px;
+}
+.add-image-of {
+  position: absolute;
+  top: 3018px;
+  left: 630px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  width: 315px;
+  height: 17px;
+}
+.mdiimage-add-icon {
+  position: absolute;
+  top: 3015px;
+  left: 596px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.desktop-4-child10 {
+  position: absolute;
+  top: 4298px;
+  left: 600px;
+  border-radius: var(--br-46xl);
+  background: linear-gradient(90deg, #436ee4, #8d7ce2);
+  width: 234px;
+  height: 74px;
+}
+.click-for-more1,
+.popular-news1 {
+  position: absolute;
+  display: inline-block;
+}
+.click-for-more1 {
+  top: 21px;
+  left: calc(50% - 91px);
+  font-weight: 600;
+  width: 176px;
+  height: 26px;
+}
+.popular-news1 {
+  top: 4440px;
+  left: calc(50% - 415px);
+  font-size: var(--font-size-17xl);
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.group-child38 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 379px;
+  height: 490px;
+}
+.election-beautiful-4k-backgr6 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  border-radius: var(--br-24xl) var(--br-24xl) 0 0;
+  width: 375px;
+  height: 267px;
+  object-fit: cover;
+}
+.in-todays-speech6,
+.tatul-mandis-recent6 {
+  position: absolute;
+  left: 30px;
+  display: inline-block;
+  width: 319px;
+}
+.tatul-mandis-recent6 {
+  top: 288px;
+  font-weight: 500;
+  height: 67px;
+}
+.in-todays-speech6 {
+  top: 326px;
+  font-size: var(--font-size-base);
+}
+.march-20246 {
+  position: absolute;
+  top: 444px;
+  left: 30px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-gray-400);
+}
+.rectangle-parent12 {
+  position: absolute;
+  top: 0;
+  left: 878px;
+  width: 379px;
+  height: 490px;
+}
+.rectangle-parent13,
+.rectangle-parent14,
+.vector-icon4 {
+  position: absolute;
+  top: 0;
+  left: 439px;
+  width: 379px;
+  height: 490px;
+}
+.rectangle-parent14,
+.vector-icon4 {
+  left: 0;
+}
+.vector-icon4 {
+  height: 6.53%;
+  width: 2.71%;
+  top: 47.67%;
+  right: 0;
+  bottom: 45.8%;
+  left: 97.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.group-parent11 {
+  position: absolute;
+  top: 4531px;
+  left: 68px;
+  width: 1330px;
+  height: 490px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.trending-world-news1 {
+  position: absolute;
+  top: 5122px;
+  left: calc(50% - 415px);
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.vector-icon5 {
+  position: absolute;
+  height: 5.61%;
+  width: 2.71%;
+  top: 47.63%;
+  right: 0;
+  bottom: 46.76%;
+  left: 97.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.group-parent12 {
+  position: absolute;
+  top: 5211px;
+  left: 70px;
+  width: 1328px;
+  height: 490px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.previous-elections1 {
+  position: absolute;
+  top: 3295px;
+  left: calc(50% - 418px);
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  background: linear-gradient(90deg, #1a9fb5, #a276e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 830.6px;
+  height: 46.5px;
+}
+.group-child44 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gray-500);
+  backdrop-filter: blur(118.7px);
+  border: 2px solid var(--color-plum);
+  box-sizing: border-box;
+  width: 1128px;
+  height: 404px;
+}
+.result2 {
+  position: absolute;
+  top: 4px;
+  left: 33px;
+  display: inline-block;
+  width: 81px;
+  height: 25px;
+}
+.fluentlive-20-filled-parent3 {
+  position: absolute;
+  top: 40px;
+  left: 71px;
+  width: 114px;
+  height: 33px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+}
+.group-parent13 {
+  position: absolute;
+  top: 3389px;
+  left: 153px;
+  width: 1128px;
+  height: 404px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.fluentlive-20-filled-icon6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 43.2px;
+  height: 33px;
+  overflow: hidden;
+}
+.result3 {
+  position: absolute;
+  top: 4px;
+  left: 43.2px;
+  display: inline-block;
+  width: 70.8px;
+  height: 25px;
+}
+.group-parent14 {
+  position: absolute;
+  top: 3847px;
+  left: 153px;
+  width: 1128px;
+  height: 404px;
+  text-align: left;
+  color: var(--color-steelblue-100);
+}
+.desktop-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 5766px;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
