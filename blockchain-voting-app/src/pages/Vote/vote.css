@@ -260,10 +260,12 @@
   left: 544px;
   width: 98px;
   height: 41.5px;
+  cursor: pointer;
 }
 .group-parent7 {
   top: 906px;
   left: 538px;
+  cursor: pointer;
 }
 .group-parent10,
 .group-parent8,
@@ -273,15 +275,18 @@
   left: 788px;
   width: 98px;
   height: 41.5px;
+  cursor: pointer;
 }
 .group-parent10,
 .group-parent9 {
   top: 607px;
   left: 792px;
+  cursor: pointer;
 }
 .group-parent10 {
   top: 610px;
   left: 1073px;
+  cursor: pointer;
 }
 .desktop-6 {
   width: 100%;

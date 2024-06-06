@@ -6,7 +6,7 @@ const Vote = () => {
   const navigate = useNavigate();
 
   const onGroupContainer3Click = useCallback(() => {
-    navigate("/admin-home");
+    navigate("/");
   }, [navigate]);
 
   return (
@@ -70,31 +70,31 @@ const Vote = () => {
         </div>
         <div className="vote3">Vote</div>
       </div>
-      <div className="group-parent6">
+      <div className="group-parent6" onClick={onGroupContainer3Click}>
         <div className="rectangle-wrapper3">
           <div className="group-child16" />
         </div>
         <div className="vote3">Vote</div>
       </div>
-      <div className="group-parent7">
+      <div className="group-parent7" onClick={onGroupContainer3Click}>
         <div className="rectangle-wrapper3">
           <div className="group-child16" />
         </div>
         <div className="vote3">Vote</div>
       </div>
-      <div className="group-parent8">
+      <div className="group-parent8" onClick={onGroupContainer3Click}>
         <div className="rectangle-wrapper3">
           <div className="group-child16" />
         </div>
         <div className="vote3">Vote</div>
       </div>
-      <div className="group-parent9">
+      <div className="group-parent9" onClick={onGroupContainer3Click}>
         <div className="rectangle-wrapper3">
           <div className="group-child16" />
         </div>
         <div className="vote3">Vote</div>
       </div>
-      <div className="group-parent10">
+      <div className="group-parent10" onClick={onGroupContainer3Click}>
         <div className="rectangle-wrapper3">
           <div className="group-child16" />
         </div>

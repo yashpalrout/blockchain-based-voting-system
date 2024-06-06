@@ -1,9 +1,11 @@
-import { useCallback } from "react";
+import { useCallback,useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./admin-home.css";
 
 const AdminHome = () => {
   const navigate = useNavigate();
+
+  const [isAddNewVisible, setAddNewVisible] = useState(false);
 
   const onVoteTextClick = useCallback(() => {
     navigate("/vote");
@@ -12,6 +14,14 @@ const AdminHome = () => {
   const onMoreTextClick = useCallback(() => {
     navigate("/candidates");
   }, [navigate]);
+
+  const onElectionClick = useCallback(()=>{
+    navigate("/")
+  },[navigate]);
+
+  const onClickAddNew = useCallback(()=>{
+    setAddNewVisible((prev)=>!prev);
+  },[]);
 
   return (
     <div className="desktop-4">
@@ -30,12 +40,14 @@ const AdminHome = () => {
         <b className="block2">Block</b>
         <b className="vote9">Vote</b>
       </div>
-      <div className="elections1">Elections</div>
+      
+      {/* <div className="about">About</div>
+      <div className="news1">News</div> */}
+      
+      <div className="elections1" onClick={onElectionClick}>Elections</div>
       <div className="vote10" onClick={onVoteTextClick}>
         Vote
       </div>
-      <div className="about">About</div>
-      <div className="news1">News</div>
       <div className="rectangle-parent6">
         <div className="group-child21" />
         <div className="contact-us">Contact Us</div>
@@ -109,10 +121,22 @@ const AdminHome = () => {
         <div className="group-child26" />
         <div className="group-child27" />
         <div className="group-child28" />
-        <div className="official-something-no">Official something no.</div>
-        <div className="location">Location</div>
-        <div className="from">From</div>
-        <div className="to">To</div>
+        <div className="official-something-no">
+          <div>Official something no.</div>
+          <input type="text" placeholder="Enter official number" />
+        </div>
+        <div className="location">
+          <div>Location</div>
+          <input type="text" placeholder="Enter location" />
+        </div>
+        <div className="from">
+          <div>From</div>
+          <input type="datetime-local" />
+        </div>
+        <div className="to">
+          <div>To</div>
+          <input type="datetime-local" />
+        </div>
       </div>
       <div className="rectangle-parent9">
         <div className="group-child22" />
@@ -215,7 +239,8 @@ const AdminHome = () => {
         </div>
       </div>
       <div className="div17">+</div>
-      <div className="add-new">Add new</div>
+      <div className="add-new" onClick={onClickAddNew}>Add new</div>
+      {isAddNewVisible &&
       <div className="rectangle-parent11">
         <div className="group-child23" />
         <div className="new-candidate-details">New Candidate Details</div>
@@ -232,6 +257,7 @@ const AdminHome = () => {
           <div className="constituency-id">Constituency ID</div>
         </div>
       </div>
+      }
       <img
         className="politician-indian-different-re1"
         alt=""
@@ -249,116 +275,7 @@ const AdminHome = () => {
         <div className="click-for-more1">Click for more</div>
       </div>
       {/* <div className="click-for-more1">Click for more</div> */}
-      <b className="popular-news1">Popular News</b>
-      <div className="group-parent11">
-        <div className="rectangle-parent12">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <div className="rectangle-parent13">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <div className="rectangle-parent14">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <img className="vector-icon4" alt="" src="/vector.svg" />
-      </div>
-      <b className="trending-world-news1">Trending World News</b>
-      <div className="group-parent12">
-        <div className="rectangle-parent12">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <div className="rectangle-parent13">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <div className="rectangle-parent14">
-          <div className="group-child38" />
-          <img
-            className="election-beautiful-4k-backgr6"
-            alt=""
-            src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
-          />
-          <div className="tatul-mandis-recent6">
-            Tatul Mandi’s recent reveal
-          </div>
-          <div className="in-todays-speech6">
-            In today’s speech Tatul Mandi stated that govt. might introduce new
-            tax system. People of Selangana in shock, some already started
-            rallies against it and soon a curfew may be imposed .....
-          </div>
-          <div className="march-20246">19 March 2024</div>
-        </div>
-        <img className="vector-icon5" alt="" src="/vector.svg" />
-      </div>
+      
       <b className="previous-elections1">Previous Elections</b>
       <div className="group-parent13">
         <div className="rectangle-parent7">
