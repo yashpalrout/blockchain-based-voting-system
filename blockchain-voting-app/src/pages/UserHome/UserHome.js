@@ -1,17 +1,20 @@
-import { useCallback } from "react";
+import { useCallback , useRef} from "react";
 import { useNavigate } from "react-router-dom";
 import "./user-home.css";
 
 const UserHome = () => {
   const navigate = useNavigate();
-
-  const onVoteTextClick = useCallback(() => {
-    navigate("/sign-in");
-  }, [navigate]);
+  const newsSectionRef = useRef(null);
 
   const onGroupContainer1Click = useCallback(() => {
     navigate("/sign-in");
   }, [navigate]);
+
+  const onNewsClick = useCallback(() => {
+    if (newsSectionRef.current) {
+      newsSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
 
   return (
     <div className="desktop-1">
@@ -28,19 +31,15 @@ const UserHome = () => {
         <b className="block">Block</b>
         <b className="vote">Vote</b>
       </div>
-      <div className="elections">Elections</div>
-      <div className="vote1" onClick={onVoteTextClick}>
-        Vote
-      </div>
-      <div className="results">Results</div>
-      <div className="news">News</div>
+      <div className="news" onClick={onNewsClick}>News</div>
       <div className="rectangle-group" onClick={onGroupContainer1Click}>
         <div className="group-child3" />
         <div className="sign-in1">Sign in</div>
       </div>
       <b className="ongoing-election">Ongoing Election</b>
-      <b className="popular-news">Popular News</b>
+      <b className="popular-news" ref={newsSectionRef}>Popular News</b>
       <div className="group-parent">
+      <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="rectangle-container">
           <div className="group-child4" />
           <img
@@ -56,6 +55,8 @@ const UserHome = () => {
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
+        <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="group-div">
           <div className="group-child4" />
           <img
@@ -64,13 +65,15 @@ const UserHome = () => {
             src="/election--beautiful-4k-background-image-hyperrealistic@2x.png"
           />
           <div className="tatul-mandis-recent">Tatul Mandi’s recent reveal</div>
-          <div className="in-todays-speech">
+          <div className="in-todays-speech" >
             In today’s speech Tatul Mandi stated that govt. might introduce new
             tax system. People of Selangana in shock, some already started
             rallies against it and soon a curfew may be imposed .....
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
+        <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="rectangle-parent1">
           <div className="group-child4" />
           <img
@@ -86,10 +89,12 @@ const UserHome = () => {
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
         <img className="vector-icon" alt="" src="/vector.svg" />
       </div>
-      <b className="trending-world-news">Trending World News</b>
-      <div className="group-container">
+      <b className="trending-world-news"  >Trending World News</b>
+      <div className="group-container" >
+      <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="rectangle-container">
           <div className="group-child4" />
           <img
@@ -105,6 +110,8 @@ const UserHome = () => {
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
+        <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="group-div">
           <div className="group-child4" />
           <img
@@ -120,6 +127,8 @@ const UserHome = () => {
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
+        <a href="https://economictimes.indiatimes.com/?from=mdr" target="_blank" rel="noopener noreferrer">
         <div className="rectangle-parent1">
           <div className="group-child4" />
           <img
@@ -135,6 +144,7 @@ const UserHome = () => {
           </div>
           <div className="march-2024">19 March 2024</div>
         </div>
+        </a>
         <img className="vector-icon1" alt="" src="/vector.svg" />
       </div>
       <div className="group-parent1">

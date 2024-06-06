@@ -116,6 +116,7 @@
 .news,
 .results {
   left: 891px;
+  cursor: pointer;
 }
 .news {
   left: 1017px;
