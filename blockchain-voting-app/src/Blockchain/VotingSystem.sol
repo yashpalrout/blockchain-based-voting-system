@@ -149,4 +149,8 @@ contract VotingSystem {
 
         return _electionId == electionId && electionOn;
     }
+
+    function getElectionId() public view returns (uint){
+        return electionId;
+    }
 }
