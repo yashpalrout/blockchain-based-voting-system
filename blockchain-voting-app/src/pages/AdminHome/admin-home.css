@@ -802,6 +802,8 @@
   left: 143px;
   width: 842.8px;
   height: 189.4px;
+  margin-top: 10px;
+  padding-top: 10px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-darkgray);
@@ -1134,4 +1136,55 @@
   /* Remove any background color */
   /* Add any additional styles you want to remove the default decoration */
   color: white;
+}
+/* Add these styles to your existing CSS file */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #436ee4, #8d7ce2);
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal p {
+  text-align: center;
+}
+
+.modal input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
