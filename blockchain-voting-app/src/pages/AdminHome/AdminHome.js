@@ -2,6 +2,7 @@ import { useCallback,useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Modal from "react-modal";
 import "./admin-home.css";
+import axios from 'axios';
 
 const AdminHome = () => {
   const navigate = useNavigate();
@@ -33,6 +34,43 @@ const AdminHome = () => {
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
+  };
+
+  const [candidateDetails, setCandidateDetails] = useState({
+    party: '',
+    name: '',
+    constituencyId: '',
+  });
+  const [image, setImage] = useState(null);
+
+  const handleChange = (e) => {
+    setCandidateDetails({
+      ...candidateDetails,
+      [e.target.id]: e.target.value,
+    });
+  };
+
+  const handleImageChange = (e) => {
+    setImage(e.target.files[0]);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData();
+    formData.append('image', image);
+    formData.append('details', JSON.stringify(candidateDetails));
+
+    try {
+      const response = await axios.post('/api/upload', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+      console.log(response.data);
+    } catch (error) {
+      console.error('Error uploading data', error);
+    }
   };
 
 
@@ -266,29 +304,31 @@ const AdminHome = () => {
       <div className="add-new" onClick={onClickAddNew}>Add new</div>
       
       <div className="rectangle-parent11">
-        <div className="group-child23" />
-        <div className="new-candidate-details">New Candidate Details</div>
-        <div className="upload-parent">
-          <div className="form-group">
-            <label htmlFor="candidate-image">Add image of the candidate</label>
-            <input type="file" className="form-control-file" id="candidate-image" />
-          </div>
+      <div className="group-child23" />
+      <div className="new-candidate-details">New Candidate Details</div>
+      <form className="upload-parent" onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="candidate-image">Add image of the candidate</label>
+          <input type="file" className="form-control-file" id="candidate-image" onChange={handleImageChange} />
         </div>
         <div className="line-parent">
           <div className="form-group">
             <label htmlFor="party">Party</label>
-            <input type="text" className="form-control" id="party" placeholder="Enter party" />
+            <input type="text" className="form-control" id="party" placeholder="Enter party" value={candidateDetails.party} onChange={handleChange} />
           </div>
           <div className="form-group">
             <label htmlFor="candidate-name">Candidate’s Name</label>
-            <input type="text" className="form-control" id="candidate-name" placeholder="Enter candidate’s name" />
+            <input type="text" className="form-control" id="candidate-name" placeholder="Enter candidate’s name" value={candidateDetails.name} onChange={handleChange} />
           </div>
           <div className="form-group">
             <label htmlFor="constituency-id">Constituency ID</label>
-            <input type="text" className="form-control" id="constituency-id" placeholder="Enter constituency ID" />
+            <input type="text" className="form-control" id="constituency-id" placeholder="Enter constituency ID" value={candidateDetails.constituencyId} onChange={handleChange} />
           </div>
         </div>
-      </div>
+        <button type="submit" className="btn btn-primary">Submit</button>
+      </form>
+    </div>
+        
 
       <img
         className="politician-indian-different-re1"
